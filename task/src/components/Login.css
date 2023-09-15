@@ -1,0 +1,46 @@
+.main-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.sub-container{ 
+   display: flex;
+   margin: 2px 2px;
+   padding: 10px;
+}
+.login-page{
+    color: brown;
+    display: inline-block;
+    margin-left: 25px;
+}
+.input-info{
+   width: 100%;
+   height: 40%;
+   padding: 10px;
+ 
+}
+.input-int{
+    width: 100%;
+    height: 100%;
+    border-color: brown;
+    border-radius:15px;
+}
+.button-btn{
+    width: 100px;
+    padding:5px;
+    margin: 60px;
+    color: #fff;
+    border: 2px;
+    background-color: brown;
+}
+.taggle{
+    display: flex;
+    justify-content: flex-end;
+    color: brown;
+    margin-top: -30px;
+    font-size: 15px;
+    font-weight: 500;
+}
